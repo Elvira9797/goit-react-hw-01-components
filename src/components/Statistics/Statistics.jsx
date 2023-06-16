@@ -4,6 +4,7 @@ import {
   StatListItem,
   StatSection,
   StatTitle,
+  Label,
   Percentage,
 } from './Statistics.styled';
 import { getRandomHexColor } from '../../getRandomColor';
@@ -19,7 +20,7 @@ export const Statistics = ({ title, stats }) => {
               key={id}
               style={{ backgroundColor: `${getRandomHexColor()}` }}
             >
-              <span>{label}</span>
+              <Label>{label}</Label>
               <Percentage>{percentage}%</Percentage>
             </StatListItem>
           );

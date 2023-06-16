@@ -23,7 +23,10 @@ export const StatListItem = styled.li`
   color: ${props => props.theme.colors.white};
 `;
 
+export const Label = styled.span`
+  margin-bottom: ${props => props.theme.spacing(2)};
+`;
+
 export const Percentage = styled.span`
   font-size: 24px;
-  margin-top: ${props => props.theme.spacing(2)};
 `;
