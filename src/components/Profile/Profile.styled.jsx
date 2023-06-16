@@ -7,6 +7,7 @@ export const UserProfile = styled.div`
   border-radius: 4px;
   width: 260px;
   padding-top: ${props => props.theme.spacing(8)};
+  margin-bottom: ${props => props.theme.spacing(15)};
 `;
 
 export const UserPhoto = styled.img`
